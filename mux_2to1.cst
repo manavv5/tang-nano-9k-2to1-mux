@@ -1,0 +1,15 @@
+// Input a: onboard button
+IO_LOC "a" 3;
+IO_PORT "a" IO_TYPE=LVCMOS18 PULL_MODE=UP;
+
+// Input b: onboard button
+IO_LOC "b" 4;
+IO_PORT "b" IO_TYPE=LVCMOS18 PULL_MODE=UP;
+
+// Select: external switch on FPGA pin 25
+IO_LOC "s" 25;
+IO_PORT "s" IO_TYPE=LVCMOS33 PULL_MODE=DOWN;
+
+// Output: onboard LED
+IO_LOC "y" 10;
+IO_PORT "y" IO_TYPE=LVCMOS18;
