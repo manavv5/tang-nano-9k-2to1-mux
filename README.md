@@ -11,7 +11,7 @@ This project implements a 2:1 multiplexer using Verilog HDL on the Sipeed Tang N
 ## Files
 - `mux_2to1.v` — Verilog implementation using an `always @(*)` block and `case` statement.
 - `mux_2to1.cst` — Pin assignments and I/O configuration for the FPGA.
-- `demo.mp4` — Video demonstrating the design running on physical FPGA hardware.
+- 'mux_2to1_demo.mp4` — Video demonstrating the design running on physical FPGA hardware.
 
 ## What I Learned
 - Combinational logic design using Verilog.
